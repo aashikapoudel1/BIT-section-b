@@ -1,0 +1,90 @@
+body{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+nav a{
+    color: black;
+}
+footer a{
+    color: ghostwhite;
+}
+.navbar{
+    margin:0px 10px 10px 0;
+    background-color: cadetblue;
+    padding:10px;
+    width:100%;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.navbar a:hover{
+    color: blue;
+    border:1px solid  red;
+    padding:3px;
+
+}
+.heading{
+   width:100%;
+   border:1px solid ;
+   border: radius 20px;
+   padding-left:30; 
+   background-color: lightslategrey ;
+   text-align:center;
+}
+.heading h1 div.head1{
+    color: white;
+}
+.box1{
+    height:100px;
+    width: 100px;
+    background-color: black;
+}
+.box2{
+    height:100px;
+    width: 110px;
+    background-color: blue;
+}
+.box3{
+    height:100px;
+    width: 100px;
+    background-color: black;
+}
+.flex-example{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.position-example{
+        height:400px;
+        width: 150px;
+        background-color: black;
+        position:relative;
+    }
+    .boxa{
+            height:70px;
+            width: 60px;
+            background-color: bisque;
+            position:absolute;
+            top:80px;
+            left:100px;
+        }
+        /*.boxb{
+            height:70px;
+            width: 60px;
+            background-color: chocolate;
+        }
+        *\
+        
+        
+        
+    
+
+
+

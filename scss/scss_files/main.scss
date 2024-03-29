@@ -1,0 +1,32 @@
+@import "mixin";
+@impor
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-bo
+}
+
+.main_header{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(111, 108, 108);
+    @include flex_code();
+    h1{
+        font-family: monospace;
+        color:$color;
+        @include letter_spacing-code(1.5rem);
+        &:hover{
+            color:blue;
+        }
+    }
+    
+
+    p{
+        font-family: monospace;
+        color:$color1;
+        letter-spacing: 1.5rem;
+        &:hover{
+            color:aqua;
+        }
+    }
+}
